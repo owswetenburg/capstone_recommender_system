@@ -8,10 +8,10 @@ Recommendations are made using pivot tables in order to hone in on cosine simila
 ## Findings
 During the exploratory data analysis (EDA), one of the most interesting findings was the fact that older films were more highly-rated on average than contemporary films. Perhaps society is only familiar with the "good" films of yesteryear. At the same time, it seems like we're constantly bombarded with ads for films like "The Hangover 7" (this is not an actual film... yet).
 
-![]('assets/hist_of_ratings_for_1940s.jpeg')
+![](./assets/hist_of_ratings_for_1940s.jpeg)
 <br>
 <br>
-![]('assets/hist_of_ratings_for_1990s.jpeg')
+![](./assets/hist_of_ratings_for_1990s.jpeg)
 
 Subjectivity is at the crux of this problem. Shouldn't the user be the ultimate decider on which films are most similar? In the spirit of objectivity, the strength of cosine similarity is displayed with each returned search result. This feature gives the user a better feel for the weight of a given suggestion. The engine works best with popular films that have a higher number of ratings. On the other hand, less popular films have fewer ratings and tend to have lower cosine similarities
 
